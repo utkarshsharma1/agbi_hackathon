@@ -33,11 +33,9 @@ def predict(data):
     
    # return True
 
-
     if (fever and (sb or weakness or cough) and (close_contact or pneumonia)):
-		return True
-    else:
-        return False
+        return True
+    return False
 
 
 def severity(test1, test2):

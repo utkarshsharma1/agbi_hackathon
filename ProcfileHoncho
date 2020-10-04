@@ -1,0 +1,2 @@
+node: cd client && npm install
+python: cd server && pip install requirements.txt && gunicorn app:app -b 0.0.0.0:5000

@@ -48,15 +48,11 @@ def severity(test1, test2):
         elif test1 < 15:
             return "moderate"
         else:
-            return "severe"
+            return "sever"
     else:
         if test2 < 2:
             return "mild"
         elif test2 < 4:
             return "moderate"
         else:
-<<<<<<< HEAD:python_modules/model.py
-            return "severe"
-=======
-            return "severe"
->>>>>>> ae84681d643eee51c770612b69cfc581a36bca30:model.py
+            return "sever"
